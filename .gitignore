@@ -1,0 +1,52 @@
+# Compiled Object files
+obj/
+*.o
+*.slo
+*.lo
+
+# CMake/vcpkg build artifacts
+build/
+vcpkg/
+vcpkg_installed/
+
+# Compiled Executables
+bin/
+anomaly_detector
+# anomaly_detector.exe # If on Windows
+
+# Python extras
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Vite
+src/io/web/ui/node_modules/
+src/io/web/ui/dist/
+src/io/web/ui/.vite/
+
+# Build files (if any specific to your IDE/environment)
+.cache/
+*.swp
+*~
+# .DS_Store # macOS specific
+
+# Personal editor/IDE configuration
+.vscode/
+.idea/
+compile_commands.json
+
+# Log files
+data/*.log
+data/*.log.*
+data/*.log*
+
+# Alert output files (if you don't want to track them)
+alerts_log.json
+alerts_output.json 
+
+config.ini
+.kiro/
+.agent-os/
+MILESTONE_*.md
